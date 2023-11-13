@@ -115,7 +115,7 @@ def detect_drones(frame , model):
     
     confidence_score = predictions[0]
     
-    threshold = 0.000000004139                            #Adjusted as observed
+    threshold = 0.00000000414                            #Adjusted as observed
     if confidence_score > threshold:
         return True
     else:
